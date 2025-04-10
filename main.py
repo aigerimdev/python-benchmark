@@ -131,55 +131,102 @@ student = {
 # for key in student:
 #     print(key)
 # Iterate over over key/value pairs using .items(), printing each key and value
-for key, value in student.items():
-    print(key, value)
-# '''SETS'''
+# for key, value in student.items():
+#     print(key, value)
+# # '''SETS'''
 
-# Create a set and assign it to a variable
+# # Create a set and assign it to a variable
+# my_set = set({"aigerim", "aikol", "max"})
+# print(my_set)
 
-# Find the length of the set
-
-# Add a new element
-
-# Remove an element
-
-# Check whether a element is in the set
-
-# Iterate over elements, printing each one out
-
+# # Find the length of the set
+# len_set = len(my_set)
+# print(len_set)
+# # Add a new element
+# my_set.add("gulnara")
+# print(my_set)
+# # Remove an element
+# my_set.remove("gulnara")
+# print(my_set)
+# # Check whether a element is in the set
+# def find_name(my_set):
+#   if "max" in my_set:
+#     return True
+# find_name(my_set)
+# # Iterate over elements, printing each one out
+# for name in my_set:
+#     print(name)
 # '''NUMBERS'''
 
 # Add / subtract / multiply 2 numbers
+# a = 10
+# b = 3
+# add = a + b
+# subtract = b - a
+# multiply = a * b
+# # Divide two numbers using normal (float) division
+# divide = a / b
+# print(divide)
+# # Divide two numbers using integer division
+# divide = a // b
+# print(divide)
+# # Find the modulo (remainder) of two numbers
+# modulo = a % b
+# print(modulo)
+# # Check whether a number is even/odd
+# if a % 2 == 0:
+#     print("even")
+# if b % 2 != 0:
+#     print("odd")
+# # Round a float down to an int
+# num = round(45.87)
+# print(num)
+# # '''FUNCTIONS'''
 
-# Divide two numbers using normal (float) division
+# # Write a function that takes no arguments and call it
+# def say_hello():
+#     print("hello there")
+# say_hello()
 
-# Divide two numbers using integer division
-
-# Find the modulo (remainder) of two numbers
-
-# Check whether a number is even/odd
-
-# Round a float down to an int
-
-
-# '''FUNCTIONS'''
-
-# Write a function that takes no arguments and call it
-
-# Write a function that takes one or more arguments and call it
-
+# # Write a function that takes one or more arguments and call it
+# def happy_birthday(name):
+#     print("Happy birthday to you")
+#     print("Happy birthday to you")
+#     print(f"Happy birthday dear {name}")
+#     print("Happy birthday to you")
+# happy_birthday("Aigerim")
 # Write a function that returns a value. Call the function and store the return value in a variable
-
+# def add(num1, num2):
+#     return num1+ num2
+# print(add(2, 2))
 # '''LOOPS'''
 
-# Write a while loop
+# # Write a while loop
+# msg = input("Say magic word: ")
 
-# Write a for loop that loops a set number of times (e.g. 10 times)
+# while msg:
+#     msg = input("Say magic word: ")
+#     if msg == "max":
+#         break
+    
+# # Write a for loop that loops a set number of times (e.g. 10 times)
+# for i in range(0, 11):
+#     print(i)
 
 # '''CONDITIONALS'''
 
 # Write an if/elif/else statement
-
+# def find_name(name):
+#     if name == "max":
+#         print("this is my son")
+#     elif name == "aikol":
+#         print("this is my husband")
+#     elif name == "aigerim":
+#         print("this is me")
+#     else:
+#          print("I dont know you")
+# find_name("asan")
+    
 # Write conditionals for the following operators:
 # ==
 # !=
