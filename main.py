@@ -229,22 +229,45 @@ student = {
     
 # Write conditionals for the following operators:
 # ==
+if name == 'max':
+    print("This is my son")
+
 # !=
+if name != "max":
+    print("I don't know who this is?")
+
 # <
+if age < 7 or age > 65:
+    print("You don't have to pay for ticket")
+
 # >
+if age > 7:
+    print("You have to pay for ticket")
+
 # <=
+if age <= 65:
+    print("You have to pay for ticket too")
+
 # >=
+if age >= 7:
+    print("PAY FOR TICKET")
+
 
 # '''NESTED DATA'''
 
 # Write a nested list (a list of lists) and assign it to a variable
-
+# names = [['aigerim', 'aikol', 'max'], ['gulnara', 'myrzabek']]
 # Print an item at a specific position in the data structure (e.g. the item at a given row and column). HINT: row comes first, column comes second
-
+# aikol = names[0][1]
+# print(aikol)
 # Iterate through the nested data structure using range
-
+# for i in range(len(names)):
+#     for j in range(len(names[i])):
+#         print(names[i][j])
 # Iterate through the nested data structure without using range 
-
+# for family in names:
+#     for name in family:
+#         print(name)
 # '''REMINDER'''
 
 # You're doing great and you got this!
